@@ -1,0 +1,27 @@
+# empire_deluxe_numibia:
+#   incoming_folders:
+#     - C:/Users/Username/AppData/LocalLow/KBSW/EmpireDeluxe/emailinbound/
+#     - C:/Users/Username/AppData/LocalLow/KBSW/EmpireDeluxe/emailinboundold/
+#   outgoing_folder: C:/Users/Username/AppData/LocalLow/KBSW/EmpireDeluxe/emailoutbound/
+#   mail_account: my_account_name
+#   email_label: empire-turn
+#   id_value: 1529518583068
+#   id_find_pattern: /__ED_(\d*)_/
+#   turn_find_pattern: /_T_(\d*)_/
+
+World_War_2:
+  incoming_folders:
+    - C:/Users/Username/AppData/LocalLow/KBSW/EmpireDeluxe/emailinbound/
+    - C:/Users/Username/AppData/LocalLow/KBSW/EmpireDeluxe/emailinboundold/
+  outgoing_folder: C:/Users/Username/AppData/LocalLow/KBSW/EmpireDeluxe/emailoutbound/
+  keep_downloaded_minimum_last: 3
+  mail_account: my_account_name
+  email_label: empire-turn
+  id_value: 1531079972458
+  id_find_pattern: /__ED_(\d*)_/
+  turn_find_pattern: /_T_(\d*)_/
+  subturn_pattern: /_(P\d*)_T_/
+  subturn_order:
+    - P1
+    - P2
+  
